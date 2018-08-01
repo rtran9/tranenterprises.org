@@ -1,9 +1,8 @@
 language: python
 
-sudo: required
-
-before_install:
-  - pip install awscli --upgrade --user
+after_sucess:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
 
 deploy:
   provider: script
