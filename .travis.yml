@@ -1,11 +1,16 @@
 language: python
 
-after_sucess:
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
+install:
+  - echo "no install."
+
+script:
+  - echo "no script."
 
 deploy:
   provider: script
-  script: bash scripts/push.sh
+  script:
+    - pip install --user awscli
+    - export PATH=$PATH:$HOME/.local/bin
+    - bash scripts/push.sh
   on:
     branch: master
