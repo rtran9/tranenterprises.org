@@ -1,5 +1,9 @@
-language: generic
+language: python
 
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+  
 deploy:
   provider: script
   script: bash scripts/push.sh
