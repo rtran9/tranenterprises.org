@@ -3,7 +3,7 @@ language: python
 sudo: required
 
 before_install:
-  - sudo pip install awscli
+  - pip install awscli --upgrade --user
 
 deploy:
   provider: script
