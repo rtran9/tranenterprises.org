@@ -7,10 +7,12 @@ script:
   - echo "no script."
 
 deploy:
-  provider: script
-  script:
-    - pip install --user awscli
-    - export PATH=$PATH:$HOME/.local/bin
-    - bash scripts/push.sh
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  bucket: "www.tranenterprises.org"
+  region: $AWS_DEFAULT_REGION
+  skip_cleanup: true
+  local-dir: public
   on:
     branch: master

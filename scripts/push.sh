@@ -1,1 +1,1 @@
-aws s3 cp ./index s3://www.tranenterprises.org/ --content-type text/html
+aws s3 cp ./public/index s3://www.tranenterprises.org/ --content-type text/html
