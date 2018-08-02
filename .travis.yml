@@ -7,17 +7,12 @@ script:
   - echo "no script."
 
 before_deploy:
-  pip install --user awscli
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
 
 deploy:
   - provider: script
     skip_cleanup: true
-    script: ~/.local/bin/aws s3 sync public/www.tranenterprises.org s3://www.tranenterprises.org/ --delete
-    on:
-      branch: master
-
-  - provider: script
-    skip_cleanup: true
-    script: ~/.local/bin/aws s3 sync public/www.robert.tranenterprises.org s3://www.robert.tranenterprises.org/ --delete
+    script: bash scripts/deploy.sh
     on:
       branch: master

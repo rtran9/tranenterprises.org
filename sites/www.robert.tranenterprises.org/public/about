@@ -9,8 +9,8 @@
         Robert Tran
     </title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/semantic-ui-css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
 
     <script src="assets/js/jquery.min.js"></script>
 </head>
