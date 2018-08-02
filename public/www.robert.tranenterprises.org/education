@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>
+        Robert Tran
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+</head>
+
+<body class="block">
+    <div class="ui main center aligned container main-block">
+        <div class="ui compact text container top-menu">
+            <a href="index" class="item menu-text">Home</a>
+            <a href="about" class="item menu-text">About </a>
+            <a href="projects" class="item menu-text">Projects</a>
+            <a href="education" class="item menu-text">Education</a>
+            <a href="random" class="item menu-text">Random</a>
+            <a href="contact" class="item menu-text">Contact</a>
+        </div>
+
+        <div class="ui text left aligned container">
+            <h1>Education</h1>
+
+            <p>
+                Here is a listing of my undergraduate course road at MIT.
+            </p>
+
+            <hr>
+
+            <h3 id="spring-2018"><a href="#spring-2018">Spring 2018</a></h3>
+            <ul style="margin-left:1em">
+                <li>4.110: Design Across Scales </li>
+                <li>18.204: Seminar in Discrete Math </li>
+                <li>24.118: Paradox and Infinity</li>
+                <li>MAS.581: Networks, Complexity, and Their Applications </li>
+            </ul>
+
+            <hr>
+
+            <h3 id="fall-2017"><a href="#fall-2017">Fall 2017</a></h3>
+            <ul style="margin-left:1em">
+                <li>3.091: Intro to Solid-State Chemistry</li>
+                <li>6.172: Performance Engineering of Software Systems </li>
+                <li><a href="http://fab.cba.mit.edu/classes/4.140/EECS/people/rtran/index.html">6.943: How To Make (almost) Anything</a></li>
+                <li>21L.704: Studies in Poetry - Power, Protest, and Poetry: British Romanticism</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="spring-2017"><a href="#spring-2017">Spring 2017</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.033: Computer System Engineering</li>
+                <li>6.857: Network and Computer Security</li>
+                <li>6.UAT: Oral Communication</li>
+                <li>18.100P: Real Analysis</li>
+                <li>21L.487: Modern Poetry</li>
+                <li>8.02 TA: Physics - Electricity & Magnetism</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="fall-2016"><a href="#fall-2016">Fall 2016</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.034: Artificial Intelligence</li>
+                <li>6.046: Design and Analysis of Algorithms</li>
+                <li>18.404: Theory of Computation</li>
+                <li>18.435: Quantum Computation</li>
+                <li><a href="./files/portfolio.pdf">21W.762: Poetry Workshop</a></li>
+                <li>8.01 TA: Physics - Classical Mechanics</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="spring-2016"><a href="#spring-2016">Spring 2016</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.004: Computation Structures</li>
+                <li>18.06: Linear Algebra</li>
+                <li>18.330: Introduction to Numerical Analysis</li>
+                <li>STS.049: The Long War Against Cancer</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="fall-2015"><a href="#fall-2015">Fall 2015</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.003: Signals & Systems</li>
+                <li>6.005: Elements of Software Construction</li>
+                <li>6.006: Introduction to Algorithims</li>
+                <li>6.042: Mathematics for Computer Science</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="spring-2015"><a href="#spring-2015">Spring 2015</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.01: Introduction to EECS</li>
+                <li>8.02: Physics - Electricity & Magnetism</li>
+                <li>14.01: Principles of Microeconomics</li>
+                <li>18.03: Differential Equations</li>
+            </ul>
+
+            <hr>
+
+            <h3 id="fall-2014"><a href="#fall-2014">Fall 2014</a></h3>
+            <ul style="margin-left:1em">
+                <li>7.012: Introductory Biology</li>
+                <li>8.012: Physics - Classical Mechanics</li>
+                <li>18.02: Multivariable Calculus</li>
+                <li>21L.010: Writing with Shakespeare</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="ui text center aligned container">
+        Robert Tran | 2018
+    </footer>
+</body>
+
+</html>

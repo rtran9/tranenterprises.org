@@ -6,22 +6,18 @@ install:
 script:
   - echo "no script."
 
+before_deploy:
+  pip install --user awscli
+
 deploy:
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "www.tranenterprises.org"
-    region: $AWS_DEFAULT_REGION
+  - provider: script
     skip_cleanup: true
-    local-dir: public/www.tranenterprises.org
+    script: ~/.local/bin/aws s3 sync public/www.tranenterprises.org s3://www.tranenterprises.org/ --delete
     on:
       branch: master
-  - provider: s3
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "www.robert.tranenterprises.org"
-    region: $AWS_DEFAULT_REGION
+
+  - provider: script
     skip_cleanup: true
-    local-dir: public/www.robert.tranenterprises.org
+    script: ~/.local/bin/aws s3 sync public/www.robert.tranenterprises.org s3://www.robert.tranenterprises.org/ --delete
     on:
       branch: master

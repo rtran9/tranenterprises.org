@@ -1,20 +1,38 @@
 <html>
 
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<title>
-		Robert Tran
-	</title>
+    <title>
+        Robert Tran
+    </title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+    <script src="assets/js/jquery.min.js"></script>
 </head>
 
-<body>
-	<p>
-		Hello.
-	</p>
+<body class="home">
+    <div class="ui middle aligned center grid home-grid container">
+        <div class="column">
+            <div class="ui main center aligned container">
+                <h1 class="ui header" style="color: white; font-size: 2em;">Robert Tran</h1>
+            </div>
+            <br>
+            <div class="ui main center aligned container">
+                <div class="ui compact text container">
+                    <a href="about" class="item home-menu-text">About </a>
+                    <a href="projects" class="item home-menu-text">Projects</a>
+                    <a href="education" class="item home-menu-text">Education</a>
+                    <a href="random" class="item home-menu-text">Random</a>
+                    <a href="contact" class="item home-menu-text">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
