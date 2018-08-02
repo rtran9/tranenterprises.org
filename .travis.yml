@@ -7,12 +7,21 @@ script:
   - echo "no script."
 
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: "www.tranenterprises.org"
-  region: $AWS_DEFAULT_REGION
-  skip_cleanup: true
-  local-dir: public
-  on:
-    branch: master
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: "www.tranenterprises.org"
+    region: $AWS_DEFAULT_REGION
+    skip_cleanup: true
+    local-dir: public/www.tranenterprises.org
+    on:
+      branch: master
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: "www.robert.tranenterprises.org"
+    region: $AWS_DEFAULT_REGION
+    skip_cleanup: true
+    local-dir: public/www.robert.tranenterprises.org
+    on:
+      branch: master
