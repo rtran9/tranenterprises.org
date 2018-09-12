@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <title>
-        Robert Tran
+        Robert Tran | Random
     </title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
@@ -27,44 +27,99 @@
         </div>
 
         <div class="ui text left aligned container">
-
             <h1> Random </h1>
 
             <hr>
 
-            <h2> Poetry </h2>
+            <h2 id="poetry"><a href="#poetry">Poetry</a></h2>
+
             <p> Some poems I've written</p>
 
-            <h3><a href="assets/files/portfolio.pdf">Dream Machine</a></h3>
+            <h4><a href="assets/files/portfolio.pdf">Dream Machine</a></h4>
             <p>Porfolio for a poetry workshop class 21W.762.</p>
 
-            <hr>
 
-            <h2> Travels </h2>
-            <p> Photos of my travels </p>
-
-            <h3>Munich</h3>
-            <h3>Athens</h3>
-            <h3>Santorini</h3>
-
-            <h3>Geneva</h3>
-            <h3>Zurich</h3>
-            <h3>Amsterdam</h3>
-            <h3>Barcelona</h3>
-
-            <h3>Niagara</h3>
-            <h3>Toronto</h3>
-
-            <h3>Copenhagen</h3>
-            <h3>Bergen</h3>
-            <h3>London</h3>
-
-            <h3>Bermuda</h3>
+            <blockquote class="poem">
+              <h4>Starry Night</h4>
+              East Boston at night <br>
+              Look o'er the airport to find <br>
+              A constellation.
+            </blockquote>
 
             <hr>
 
-            <h2> Quotes </h2>
-            <p> Words for safe keeping. </p>
+            <h2 id="movies"><a href="#movies">Movies</a></h2>
+
+            <ul>
+              <li>The Godfather (1972)</li>
+              <li>The Godfather: Part II (1974)</li>
+              <li>Blade Runner (1982)</li>
+              <li>The Princess Bride (1987)</li>
+              <li>Saving Private Ryan (1998)</li>
+              <li>10 Things I Hate About You (1999)</li>
+              <li>Gladiator (2000)</li>
+              <li>The Dark Knight (2008)</li>
+              <li>How To Train Your Dragon (2010)</li>
+              <li>The Intouchables (2011)</li>
+              <li>Whiplash (2014)</li>
+              <li>Mad Max: Fury Road (2015)</li>
+              <li>Room (2015)</li>
+              <li>Sicario (2015)</li>
+              <li>Spotlight (2015)</li>
+              <li>Arrival (2016)</li>
+              <li>Blade Runner 2049 (2017)</li>
+              <li>Dunkirk (2017)</li>
+              <li>Three Billboards Outside Ebbing, Missouri (2017)</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="books"><a href="#books">Books</a></h2>
+
+            <ul>
+              <li>The Handmaid's Tale (Margaret Atwood)</li>
+              <li>Fahrenheit 451 (Ray Bradbury)</li>
+              <li>A Clockwork Orange (Anthony Burgess)</li>
+              <li>The Stranger (Albert Camus)</li>
+              <li>Lord of the Flies (William Golding)</li>
+              <li>Catch-22 (Joseph Heller)</li>
+              <li>Brave New World (Aldous Huxley)</li>
+              <li>Flowers for Algernon (Daniel Keyes)</li>
+              <li>A Farewell to Arms (Ernest Hemingway)</li>
+              <li>The Sun Also Rises (Ernest Hemingway)</li>
+              <li>1984 (George Orwell)</li>
+              <li>The Godfather (Mario Puzo)</li>
+              <li>All Quiet on the Western Front (Erich Maria Remarque)</li>
+              <li>Night (Elie Wiesel)</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="papers"><a href="#papers">Papers</a></h2>
+
+            <ul>
+              <li>
+                <a href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102">
+                  Observation of Gravitational Waves from a Binary Black Hole Merger (B.P. Abbott et al., 2016)
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h2 id="articles"><a href="#articles">Articles</a></h2>
+
+            <ul>
+              <li>
+                <a href="https://arxiv.org/abs/math/0702396">
+                  What is good mathematics? (Terence Tao, 2007)
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h2 id="quotes"><a href="#quotes">Quotes</a></h2>
 
             <blockquote>"Friendship is everything. Friendship is more than talent. It is more than government. It is almost the equal of family. Never forget that."
                 <br> -Don Corleone, The Godfather</blockquote>
@@ -82,6 +137,29 @@
                 It kills the very good and the very gentle and the very brave impartially. If you are none of these you can be sure it will kill you too but there will be no special hurry."<br> -Hemingway, A Farewell To Arms</blockquote>
             <blockquote>"Fish aren't meant to be in a box, kid. It does things to 'ya."<br> -Gill</blockquote>
             <blockquote>"I believe that what doesn't kill simply makes you stranger."<br> -Joker</blockquote>
+
+            <hr>
+
+
+            <h2 id="travels"><a href="#travels">Travels</a></h2>
+            
+            <h3>Bermuda</h3>
+            <h3>London</h3>
+            <h3>Bergen</h3>
+            <h3>Copenhagen</h3>
+            <h3>Toronto</h3>
+            <h3>Niagara</h3>
+            <h3>Barcelona</h3>
+            <h3>Amsterdam</h3>
+            <h3>Zurich</h3>
+            <h3>Geneva</h3>
+            <h3>Santorini</h3>
+            <h3>Athens</h3>
+            <h3>Munich</h3>
+
+            <hr>
+
+
 
         </div>
     </div>

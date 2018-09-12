@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <title>
-        Robert Tran
+        Robert Tran | Projects
     </title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
@@ -31,7 +31,7 @@
 
             <h1> Projects </h1>
             <p>
-                Some of the things I've been working on... probably as a software engineer.
+                Some of the things I've worked on...
             </p>
 
             <hr>
@@ -43,8 +43,6 @@
 
             <p>
                 Graduate Research Assistant
-                <br>
-                I study how things move.
             </p>
 
             <hr>
