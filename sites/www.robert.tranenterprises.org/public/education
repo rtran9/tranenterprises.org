@@ -35,6 +35,20 @@
 
             <hr>
 
+            <h3 id="spring-2019"><a href="#spring-2019">Spring 2019</a></h3>
+            <ul style="margin-left:1em">
+                <li>6.890: Learning-Augmented Algorithms</li>
+                <ul>
+                  <li style="list-style-type: none;">Konstantinos Daskalakis, Piotr Indyk</li>
+                </ul>
+                <li>6.945: Adventures in Advanced Symbolic Programming</li>
+                <ul>
+                  <li style="list-style-type: none;">Gerald Jay Sussman</li>
+                </ul>
+            </ul>
+
+            <hr>
+
             <h3 id="fall-2018"><a href="#fall-2018">Fall 2018</a></h3>
             <ul style="margin-left:1em">
                 <li>9.660: Computational Cognitive Science </li>
