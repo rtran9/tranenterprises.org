@@ -30,11 +30,9 @@
         <div class="ui text left aligned container">
 
             <h1> Projects </h1>
-            <p>
-                Some of the things I've worked on...
-            </p>
-
             <hr>
+
+            <h2> Current </h2>
 
             <h3 style="margin-bottom:0"> MIT Computational and Visual Education Lab </h3>
             <p>
@@ -45,7 +43,22 @@
                 Graduate Research Assistant
             </p>
 
+            <hr style="border: 1px dashed black;" align="left" width="15%">
+
+            <h3 style="margin-bottom:0"> Tran Enterprises </h3>
+            <p>
+                June 2018 - Present
+            </p>
+
+            <p>
+              We provide consulting services. Send us an email at <a href="mailto:contact@tranenterprises.org" >
+                contact@tranenterprises.org
+              </a>.
+            </p>
+
             <hr>
+
+            <h2> Past </h2>
 
             <h3 style="margin-bottom:0"> MIT Computational and Visual Education Lab </h3>
             <p>
@@ -56,28 +69,28 @@
                 Undergraduate Research Assistant
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> Jock Market </h3>
             <p>
                 January 2018 | MIT IAP Externship Program
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> TetraScience </h3>
             <p>
                 June 2017 - August 2017
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> Twitch.tv </h3>
             <p>
                 January 2017 | MIT IAP Externship Program
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> MIT Media Lab </h3>
             <p>
@@ -87,21 +100,21 @@
                 Undergraduate Research Assisant. Project Superglue.
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> IBM: Project Whitewater </h3>
             <p>
                 June 2016 - August 2016
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> TetraScience </h3>
             <p>
                 January 2016 | MIT IAP Externship Program
             </p>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 style="margin-bottom:0"> MIT Aerospace Controls Lab </h3>
             <p>
@@ -110,6 +123,8 @@
             <p>
                 Undergraduate Research Assistant
             </p>
+
+            <hr>
         </div>
     </div>
 
