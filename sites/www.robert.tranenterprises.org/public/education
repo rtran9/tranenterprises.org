@@ -29,11 +29,43 @@
         <div class="ui text left aligned container">
             <h1>Education</h1>
 
-            <p>
-                Here is a listing of my course road at MIT.
-            </p>
+            <hr>
+
+            <h2 id="papers"><a href="#papers">Papers</a></h2>
+
+            <ul>
+              <li>
+                <a href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102">
+                  Observation of Gravitational Waves from a Binary Black Hole Merger (B.P. Abbott et al., 2016)
+                </a>
+              </li>
+              <li>
+                <a href="http://www.wherestheflux.com/">
+                  Where's the Flux (T. S. Boyajian et al., 2016)
+                </a>
+              </li>
+            </ul>
 
             <hr>
+
+            <h2 id="articles"><a href="#articles">Articles</a></h2>
+
+            <ul>
+              <li>
+                <a href="https://arxiv.org/abs/math/0702396">
+                  What is good mathematics? (Terence Tao, 2007)
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ussindianapolis.org/hashimoto.htm">
+                  On the Court Martial of Charles Butler McVay III
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h2 id="courses"><a href="#courses">Courses</a></h2>
 
             <h3 id="spring-2019"><a href="#spring-2019">Spring 2019</a></h3>
             <ul style="margin-left:1em">
@@ -47,7 +79,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="fall-2018"><a href="#fall-2018">Fall 2018</a></h3>
             <ul style="margin-left:1em">
@@ -61,7 +93,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="spring-2018"><a href="#spring-2018">Spring 2018</a></h3>
             <ul style="margin-left:1em">
@@ -83,7 +115,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="fall-2017"><a href="#fall-2017">Fall 2017</a></h3>
             <ul style="margin-left:1em">
@@ -105,7 +137,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="spring-2017"><a href="#spring-2017">Spring 2017</a></h3>
             <ul style="margin-left:1em">
@@ -135,7 +167,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="fall-2016"><a href="#fall-2016">Fall 2016</a></h3>
             <ul style="margin-left:1em">
@@ -165,7 +197,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="spring-2016"><a href="#spring-2016">Spring 2016</a></h3>
             <ul style="margin-left:1em">
@@ -187,7 +219,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="fall-2015"><a href="#fall-2015">Fall 2015</a></h3>
             <ul style="margin-left:1em">
@@ -209,7 +241,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="spring-2015"><a href="#spring-2015">Spring 2015</a></h3>
             <ul style="margin-left:1em">
@@ -231,7 +263,7 @@
                 </ul>
             </ul>
 
-            <hr>
+            <hr style="border: 1px dashed black;" align="left" width="15%">
 
             <h3 id="fall-2014"><a href="#fall-2014">Fall 2014</a></h3>
             <ul style="margin-left:1em">
@@ -252,6 +284,8 @@
                   <li style="list-style-type: none;">Diana Henderson</li>
                 </ul>
             </ul>
+
+            <hr>
         </div>
     </div>
 
