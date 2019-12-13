@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <title>
-        Robert Tran | Random
+        Robert Tran | Archive
     </title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
@@ -19,15 +19,14 @@
     <div class="ui main center aligned container main-block">
         <div class="ui compact text container top-menu">
             <a href="index" class="item menu-text">Home</a>
-            <a href="about" class="item menu-text">About </a>
+            <a href="about" class="item menu-text">About</a>
             <a href="projects" class="item menu-text">Projects</a>
-            <a href="education" class="item menu-text">Education</a>
-            <a href="random" class="item menu-text">Random</a>
+            <a href="archive" class="item menu-text">Archive</a>
             <a href="contact" class="item menu-text">Contact</a>
         </div>
 
         <div class="ui text left aligned container">
-            <h1> Random </h1>
+            <h1> Archive </h1>
 
             <hr>
 
@@ -35,16 +34,65 @@
 
             <p> Some poems I've written</p>
 
-            <h4><a href="assets/files/portfolio.pdf">Dream Machine</a></h4>
-            <p>Porfolio for a poetry workshop class 21W.762.</p>
-
+            <blockquote class="poem">
+              <h4><a target="_blank" href="assets/files/poem_snow.pdf">Lines Written From An Early Morning In The City (2017)</a></h4>
+            </blockquote>
 
             <blockquote class="poem">
-              <h4>Starry Night</h4>
+              <h4><a target="_blank" href="assets/files/portfolio.pdf">Dream Machine (2016)</a></h4>
+              Porfolio of ten poems.
+            </blockquote>
+
+            <blockquote class="poem">
+              <h4>Starry Night (2018)</h4>
               East Boston at night <br>
               Look o'er the airport to find <br>
               A constellation.
             </blockquote>
+
+            <hr>
+
+            <h2 id="papers"><a href="#papers">Papers</a></h2>
+
+            <ul>
+              <li>
+                <a target="_blank" href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102">
+                  Observation of Gravitational Waves from a Binary Black Hole Merger (B.P. Abbott et al., 2016)
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.wherestheflux.com/">
+                  Where's the Flux (T. S. Boyajian et al., 2016)
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h2 id="articles"><a href="#articles">Articles</a></h2>
+
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.outsideonline.com/2395803/snakebite-antivenom-tim-friede">
+                  The Human Antivenom Project (2019)
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.newyorker.com/sports/sporting-scene/stringing-roger-federers-nine-rackets">
+                  Roger Federer’s Nine Racquets (2014)
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://arxiv.org/abs/math/0702396">
+                  What is good mathematics? (Terence Tao, 2007)
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.ussindianapolis.org/hashimoto.htm">
+                  On the Court Martial of Charles Butler McVay III
+                </a>
+              </li>
+            </ul>
 
             <hr>
 
@@ -97,6 +145,30 @@
 
             <hr>
 
+            <h2 id="podcasts"><a href="#podcasts">Podcasts</a></h2>
+
+            <ul>
+              <li>
+                <a target="_blank" href="https://99percentinvisible.org/episode/on-average/">
+                  On Average (2016)
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
+            <h2 id="videos"><a href="#videos">Videos</a></h2>
+
+            <ul>
+              <li>
+                <a target="_blank" href="https://hubblesite.org/video/17-galaxy-collisions-simulation-vs-observations">
+                  Galaxy Collisions: Simulation vs Observations (2014)
+                </a>
+              </li>
+            </ul>
+
+            <hr>
+
             <h2 id="quotes"><a href="#quotes">Quotes</a></h2>
 
             <blockquote>"Friendship is everything. Friendship is more than talent. It is more than government. It is almost the equal of family. Never forget that."
@@ -121,6 +193,7 @@
 
             <h2 id="travels"><a href="#travels">Travels</a></h2>
 
+            <h3>Tokyo (soon!)</h3>
             <h3>Rome</h3>
             <h3>Venice</h3>
             <h3>Milan</h3>
@@ -142,12 +215,14 @@
 
             <hr>
 
+            <h2 id="education"><a href="education">Education</a></h2>
 
+            <hr>
 
         </div>
     </div>
     <footer class="ui text center aligned container">
-        Robert Tran | 2018
+        Robert Tran | 2020
     </footer>
 </body>
 

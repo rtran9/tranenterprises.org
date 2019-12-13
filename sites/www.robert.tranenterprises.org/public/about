@@ -19,37 +19,51 @@
     <div class="ui main center aligned container main-block">
         <div class="ui compact text container top-menu">
             <a href="index" class="item menu-text">Home</a>
-            <a href="about" class="item menu-text">About </a>
+            <a href="about" class="item menu-text">About</a>
             <a href="projects" class="item menu-text">Projects</a>
-            <a href="education" class="item menu-text">Education</a>
-            <a href="random" class="item menu-text">Random</a>
+            <a href="archive" class="item menu-text">Archive</a>
             <a href="contact" class="item menu-text">Contact</a>
         </div>
 
         <div class="ui text left aligned container">
             <h1> About </h1>
-            <p>
-                Hello. Currently, I am an MEng student at the MIT Center for Transportation & Logistics.
-            </p>
+
+            <hr>
+
+            <h2>Bio</h2>
 
             <p>
-                I was born and raised in Pensacola, FL. I grew up with 8 brothers and 6 sisters, I am 9th in the line of 15.
+                Hello.
+
+                <br><br>
+
+                Currently, I'm a software engineer at <a target="_blank" href="https://vigilant.cc/">Vigilant</a>.
+
+                I work in the space of using public data for transparency and compliance.
+
+                <br><br>
+
+                I was born and raised in Pensacola, FL.
+                I grew up with 8 brothers and 6 sisters, I am 9th in the line of 15.
             </p>
 
-            <p>
-                In 2014, I graduated from Pensacola High School and received an International Baccalaureate diploma.
-            </p>
+            <hr>
 
-            <p>
-              In 2018, I graduated from MIT with a B.S. in Computer Science and Engineering and in Mathematics.
-            </p>
+            <h2>Timeline</h2>
 
+            <ul>
+              <li>2019 - I graduated from MIT with an M.Eng. in Electrical Engineering and Computer Science.</li>
+              <li>2018 - I graduated from MIT with a S.B. in Computer Science and Engineering and in Mathematics. </li>
+              <li>2014 - I graduated from Pensacola High School and with an International Baccalaureate diploma. </li>
+            </ul>
 
+            <hr>
+            
         </div>
     </div>
 
     <footer class="ui text center aligned container">
-        Robert Tran | 2018
+        Robert Tran | 2020
     </footer>
 </body>
 
