@@ -26,7 +26,6 @@
                 <div class="ui compact text container">
                     <a href="about" class="item home-menu-text">About </a>
                     <a href="projects" class="item home-menu-text">Projects</a>
-                    <a href="education" class="item home-menu-text">Education</a>
                     <a href="archive" class="item home-menu-text">Archive</a>
                     <a href="contact" class="item home-menu-text">Contact</a>
                 </div>
