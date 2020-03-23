@@ -1,249 +1,204 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title>
-        Robert Tran | Archive
-    </title>
+  <title>
+    Robert Tran | Archive
+  </title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-
-    <script src="assets/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 </head>
 
-<body class="block">
-    <div class="ui main center aligned container main-block">
-        <div class="ui compact text container top-menu">
-            <a href="index" class="item menu-text">Home</a>
-            <a href="about" class="item menu-text">About</a>
-            <a href="projects" class="item menu-text">Projects</a>
-            <a href="archive" class="item menu-text">Archive</a>
-            <a href="contact" class="item menu-text">Contact</a>
+<body>
+  <div class='page-container'>
+    <div class='page-top'>
+      <div class='page-header'>
+        <div class='row-center'>
+          <a class='margin-em-half' href='index'>Home</a>
+          <a class='margin-em-half' href='about'>About</a>
+          <a class='margin-em-half' href='archive'>Archive</a>
+          <a class='margin-em-half' href='contact'>Contact</a>
         </div>
+      </div>
+      <div class='page-body'>
+        <h1> Archive </h1>
 
-        <div class="ui text left aligned container">
-            <h1> Archive </h1>
+        <h2 id="poetry"><a href="#poetry">Poetry</a></h2>
 
-            <hr>
+        <p> Some poems I've written</p>
 
-            <h2 id="poetry"><a href="#poetry">Poetry</a></h2>
+        <blockquote class="poem">
+          <h4><a target="_blank" href="assets/files/poem_snow.pdf">Lines Written From An Early Morning In The City (2017)</a></h4>
+        </blockquote>
 
-            <p> Some poems I've written</p>
+        <blockquote class="poem">
+          <h4><a target="_blank" href="assets/files/portfolio.pdf">Dream Machine (2016)</a></h4>
+          Porfolio of ten poems.
+        </blockquote>
 
-            <blockquote class="poem">
-              <h4><a target="_blank" href="assets/files/poem_snow.pdf">Lines Written From An Early Morning In The City (2017)</a></h4>
-            </blockquote>
+        <blockquote class="poem">
+          <h4>Starry Night (2018)</h4>
+          East Boston at night <br>
+          Look o'er the airport to find <br>
+          A constellation.
+        </blockquote>
 
-            <blockquote class="poem">
-              <h4><a target="_blank" href="assets/files/portfolio.pdf">Dream Machine (2016)</a></h4>
-              Porfolio of ten poems.
-            </blockquote>
+        <h2 id="papers"><a href="#papers">Papers</a></h2>
 
-            <blockquote class="poem">
-              <h4>Starry Night (2018)</h4>
-              East Boston at night <br>
-              Look o'er the airport to find <br>
-              A constellation.
-            </blockquote>
+        <ul>
+          <li>
+            <a target="_blank" href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102">
+              Observation of Gravitational Waves from a Binary Black Hole Merger (B.P. Abbott et al., 2016)
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.wherestheflux.com/">
+              Where's the Flux (T. S. Boyajian et al., 2016)
+            </a>
+          </li>
+        </ul>
 
-            <hr>
+        <h2 id="articles"><a href="#articles">Articles</a></h2>
 
-            <h2 id="papers"><a href="#papers">Papers</a></h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.outsideonline.com/2395803/snakebite-antivenom-tim-friede">
+              The Human Antivenom Project (2019)
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.newyorker.com/sports/sporting-scene/stringing-roger-federers-nine-rackets">
+              Roger Federer’s Nine Racquets (2014)
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://arxiv.org/abs/math/0702396">
+              What is good mathematics? (Terence Tao, 2007)
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.ussindianapolis.org/hashimoto.htm">
+              On the Court Martial of Charles Butler McVay III
+            </a>
+          </li>
+        </ul>
 
-            <ul>
-              <li>
-                <a target="_blank" href="https://link.aps.org/doi/10.1103/PhysRevLett.116.061102">
-                  Observation of Gravitational Waves from a Binary Black Hole Merger (B.P. Abbott et al., 2016)
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="http://www.wherestheflux.com/">
-                  Where's the Flux (T. S. Boyajian et al., 2016)
-                </a>
-              </li>
-            </ul>
+        <h2 id="movies"><a href="#movies">Movies</a></h2>
 
-            <hr>
+        <ul>
+          <li>The Godfather (1972)</li>
+          <li>The Godfather: Part II (1974)</li>
+          <li>Blade Runner (1982)</li>
+          <li>The Princess Bride (1987)</li>
+          <li>Saving Private Ryan (1998)</li>
+          <li>10 Things I Hate About You (1999)</li>
+          <li>Gladiator (2000)</li>
+          <li>Monsters, Inc. (2001)</li>
+          <li>Shrek (2001)</li>
+          <li>Holes (2003)</li>
+          <li>The Dark Knight (2008)</li>
+          <li>Up in the Air (2009)</li>
+          <li>How To Train Your Dragon (2010)</li>
+          <li>The Grey (2011)</li>
+          <li>The Intouchables (2011)</li>
+          <li>Whiplash (2014)</li>
+          <li>Mad Max: Fury Road (2015)</li>
+          <li>Room (2015)</li>
+          <li>Sicario (2015)</li>
+          <li>Spotlight (2015)</li>
+          <li>Arrival (2016)</li>
+          <li>Blade Runner 2049 (2017)</li>
+          <li>Dunkirk (2017)</li>
+          <li>Three Billboards Outside Ebbing, Missouri (2017)</li>
+          <li>First Man (2018)</li>
+        </ul>
 
-            <h2 id="articles"><a href="#articles">Articles</a></h2>
+        <h2 id="books"><a href="#books">Books</a></h2>
 
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.outsideonline.com/2395803/snakebite-antivenom-tim-friede">
-                  The Human Antivenom Project (2019)
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.newyorker.com/sports/sporting-scene/stringing-roger-federers-nine-rackets">
-                  Roger Federer’s Nine Racquets (2014)
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://arxiv.org/abs/math/0702396">
-                  What is good mathematics? (Terence Tao, 2007)
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.ussindianapolis.org/hashimoto.htm">
-                  On the Court Martial of Charles Butler McVay III
-                </a>
-              </li>
-            </ul>
+        <ul>
+          <li>The Handmaid's Tale (Margaret Atwood)</li>
+          <li>Fahrenheit 451 (Ray Bradbury)</li>
+          <li>A Clockwork Orange (Anthony Burgess)</li>
+          <li>The Stranger (Albert Camus)</li>
+          <li>Lord of the Flies (William Golding)</li>
+          <li>Catch-22 (Joseph Heller)</li>
+          <li>Brave New World (Aldous Huxley)</li>
+          <li>Flowers for Algernon (Daniel Keyes)</li>
+          <li>A Farewell to Arms (Ernest Hemingway)</li>
+          <li>The Sun Also Rises (Ernest Hemingway)</li>
+          <li>1984 (George Orwell)</li>
+          <li>Fight Club (Chuck Palahniuk)</li>
+          <li>The Godfather (Mario Puzo)</li>
+          <li>All Quiet on the Western Front (Erich Maria Remarque)</li>
+          <li>Night (Elie Wiesel)</li>
+        </ul>
 
-            <hr>
+        <h2 id="podcasts"><a href="#podcasts">Podcasts</a></h2>
 
-            <h2 id="movies"><a href="#movies">Movies</a></h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://99percentinvisible.org/episode/on-average/">
+              On Average (2016)
+            </a>
+          </li>
+        </ul>
 
-            <ul>
-              <li>The Godfather (1972)</li>
-              <li>The Godfather: Part II (1974)</li>
-              <li>Blade Runner (1982)</li>
-              <li>The Princess Bride (1987)</li>
-              <li>Saving Private Ryan (1998)</li>
-              <li>10 Things I Hate About You (1999)</li>
-              <li>Gladiator (2000)</li>
-              <li>Monsters, Inc. (2001)</li>
-              <li>Shrek (2001)</li>
-              <li>Holes (2003)</li>
-              <li>The Dark Knight (2008)</li>
-              <li>Up in the Air (2009)</li>
-              <li>How To Train Your Dragon (2010)</li>
-              <li>The Grey (2011)</li>
-              <li>The Intouchables (2011)</li>
-              <li>Whiplash (2014)</li>
-              <li>Mad Max: Fury Road (2015)</li>
-              <li>Room (2015)</li>
-              <li>Sicario (2015)</li>
-              <li>Spotlight (2015)</li>
-              <li>Arrival (2016)</li>
-              <li>Blade Runner 2049 (2017)</li>
-              <li>Dunkirk (2017)</li>
-              <li>Three Billboards Outside Ebbing, Missouri (2017)</li>
-              <li>First Man (2018)</li>
-            </ul>
+        <h2 id="videos"><a href="#videos">Videos</a></h2>
 
-            <hr>
+        <ul>
+          <li>
+            <a target="_blank" href="https://hubblesite.org/video/17-galaxy-collisions-simulation-vs-observations">
+              Galaxy Collisions: Simulation vs Observations (2014)
+            </a>
+          </li>
+        </ul>
 
-            <h2 id="books"><a href="#books">Books</a></h2>
+        <h2 id="artwork"><a href="#artwork">Artwork</a></h2>
 
-            <ul>
-              <li>The Handmaid's Tale (Margaret Atwood)</li>
-              <li>Fahrenheit 451 (Ray Bradbury)</li>
-              <li>A Clockwork Orange (Anthony Burgess)</li>
-              <li>The Stranger (Albert Camus)</li>
-              <li>Lord of the Flies (William Golding)</li>
-              <li>Catch-22 (Joseph Heller)</li>
-              <li>Brave New World (Aldous Huxley)</li>
-              <li>Flowers for Algernon (Daniel Keyes)</li>
-              <li>A Farewell to Arms (Ernest Hemingway)</li>
-              <li>The Sun Also Rises (Ernest Hemingway)</li>
-              <li>1984 (George Orwell)</li>
-              <li>Fight Club (Chuck Palahniuk)</li>
-              <li>The Godfather (Mario Puzo)</li>
-              <li>All Quiet on the Western Front (Erich Maria Remarque)</li>
-              <li>Night (Elie Wiesel)</li>
-            </ul>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.guggenheim.org/artwork/33708">
+              Phantom Library
+            </a>
+          </li>
+        </ul>
 
-            <hr>
+        <h2 id="quotes"><a href="#quotes">Quotes</a></h2>
 
-            <h2 id="podcasts"><a href="#podcasts">Podcasts</a></h2>
+        <br>
+        <blockquote>"Friendship is everything. Friendship is more than talent. It is more than government. It is almost the equal of family. Never forget that."
+          <br> -Don Corleone, The Godfather</blockquote>
+        <blockquote>"A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one."
+          <br> -George R.R. Martin, A Dance with Dragons</blockquote>
+        <blockquote>"We need not to be let alone. We need to be really bothered once in a while. How long is it since you were really bothered? About something important, about something real?"
+          <br> -Ray Bradbury, Fahrenheit 451</blockquote>
+        <blockquote>"I pick, I pick for both of us." <br> -Room</blockquote>
+        <blockquote>"Happiness only real when shared." <br> -Into the Wild</blockquote>
+        <blockquote>"There is nothing either good or bad, but thinking makes it so." <br> -Hamlet</blockquote>
+        <blockquote>"Though this be madness, yet there is method in ’t." <br> -Polonius</blockquote>
+        <blockquote>"If there is evil in this world, it lurks in the hearts of man."<br> -Edward D. Morrison</blockquote>
+        <blockquote>"I love sleep. My life has the tendency to fall apart when I'm awake, you know?"<br> -Hemingway</blockquote>
+        <blockquote>"If people bring so much courage to this world the world has to kill them to break them, so of course it kills them. The world breaks every one and afterward many are strong at the broken places. But those that will not break it
+          kills.
+          It kills the very good and the very gentle and the very brave impartially. If you are none of these you can be sure it will kill you too but there will be no special hurry."<br> -Hemingway, A Farewell To Arms</blockquote>
+        <blockquote>"Fish aren't meant to be in a box, kid. It does things to 'ya."<br> -Gill</blockquote>
+        <blockquote>"I believe that what doesn't kill simply makes you stranger."<br> -Joker</blockquote>
+        <blockquote>"I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to
+          die."<br> -Roy Batty</blockquote>
 
-            <ul>
-              <li>
-                <a target="_blank" href="https://99percentinvisible.org/episode/on-average/">
-                  On Average (2016)
-                </a>
-              </li>
-            </ul>
+        <h2 id="travels"><a href="#travels">Travels</a></h2>
+        <p>Coming soon... I've been meaning to upload some photos here.</p>
 
-            <hr>
+        <h2 id="mit"><a href="mit">MIT</a></h2>
 
-            <h2 id="videos"><a href="#videos">Videos</a></h2>
-
-            <ul>
-              <li>
-                <a target="_blank" href="https://hubblesite.org/video/17-galaxy-collisions-simulation-vs-observations">
-                  Galaxy Collisions: Simulation vs Observations (2014)
-                </a>
-              </li>
-            </ul>
-
-            <hr>
-            
-            <h2 id="artwork"><a href="#artwork">Artwork</a></h2>
-
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.guggenheim.org/artwork/33708">
-                  Phantom Library
-                </a>
-              </li>
-            </ul>
-
-            <hr>
-
-            <h2 id="quotes"><a href="#quotes">Quotes</a></h2>
-
-            <blockquote>"Friendship is everything. Friendship is more than talent. It is more than government. It is almost the equal of family. Never forget that."
-                <br> -Don Corleone, The Godfather</blockquote>
-            <blockquote>"A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one."
-                <br> -George R.R. Martin, A Dance with Dragons</blockquote>
-            <blockquote>"We need not to be let alone. We need to be really bothered once in a while. How long is it since you were really bothered? About something important, about something real?"
-                <br> -Ray Bradbury, Fahrenheit 451</blockquote>
-            <blockquote>"I pick, I pick for both of us." <br> -Room</blockquote>
-            <blockquote>"Happiness only real when shared." <br> -Into the Wild</blockquote>
-            <blockquote>"There is nothing either good or bad, but thinking makes it so." <br> -Hamlet</blockquote>
-            <blockquote>"Though this be madness, yet there is method in ’t." <br> -Polonius</blockquote>
-            <blockquote>"If there is evil in this world, it lurks in the hearts of man."<br> -Edward D. Morrison</blockquote>
-            <blockquote>"I love sleep. My life has the tendency to fall apart when I'm awake, you know?"<br> -Hemingway</blockquote>
-            <blockquote>"If people bring so much courage to this world the world has to kill them to break them, so of course it kills them. The world breaks every one and afterward many are strong at the broken places. But those that will not break it kills.
-                It kills the very good and the very gentle and the very brave impartially. If you are none of these you can be sure it will kill you too but there will be no special hurry."<br> -Hemingway, A Farewell To Arms</blockquote>
-            <blockquote>"Fish aren't meant to be in a box, kid. It does things to 'ya."<br> -Gill</blockquote>
-            <blockquote>"I believe that what doesn't kill simply makes you stranger."<br> -Joker</blockquote>
-            <blockquote>"I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to die."<br> -Roy Batty</blockquote>
-
-            <hr>
-
-
-            <h2 id="travels"><a href="#travels">Travels</a></h2>
-
-            <h3>Tokyo</h3>
-            <h3>Osaka</h3>
-            <h3>Kyoto</h3>
-            <h3>Rome</h3>
-            <h3>Venice</h3>
-            <h3>Milan</h3>
-            <h3>Paris</h3>
-            <h3>Montreal</h3>
-            <h3>Bermuda</h3>
-            <h3>London</h3>
-            <h3>Bergen</h3>
-            <h3>Copenhagen</h3>
-            <h3>Toronto</h3>
-            <h3>Niagara</h3>
-            <h3>Barcelona</h3>
-            <h3>Amsterdam</h3>
-            <h3>Zurich</h3>
-            <h3>Geneva</h3>
-            <h3>Santorini</h3>
-            <h3>Athens</h3>
-            <h3>Munich</h3>
-
-            <hr>
-
-            <h2 id="education"><a href="education">Education</a></h2>
-
-            <hr>
-
-        </div>
+      </div>
     </div>
-    <footer class="ui text center aligned container">
-        Robert Tran | 2020
-    </footer>
+
+    <div class='page-footer'>Robert Tran | 2020</div>
+  </div>
 </body>
 
 </html>

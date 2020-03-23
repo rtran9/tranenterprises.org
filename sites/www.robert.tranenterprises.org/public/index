@@ -1,37 +1,30 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title>
-        Robert Tran | Home
-    </title>
+  <title>
+    Robert Tran | Home
+  </title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/semantic-ui-css/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-
-    <script src="assets/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 </head>
 
-<body class="home">
-    <div class="ui middle aligned center grid home-grid container">
-        <div class="column">
-            <div class="ui main center aligned container">
-                <h1 class="ui header" style="color: white; font-size: 2em;">Robert Tran</h1>
-            </div>
-            <br>
-            <div class="ui main center aligned container">
-                <div class="ui compact text container">
-                    <a href="about" class="item home-menu-text">About </a>
-                    <a href="projects" class="item home-menu-text">Projects</a>
-                    <a href="archive" class="item home-menu-text">Archive</a>
-                    <a href="contact" class="item home-menu-text">Contact</a>
-                </div>
-            </div>
-        </div>
+<body>
+  <div class='container-center'>
+    <div class='col-center'>
+      <div class='row-center'>
+        <h1>Robert Tran</h1>
+      </div>
+      <div class='row-center'>
+        <a class='margin-em-half' href='about'>About</a>
+        <a class='margin-em-half' href='archive'>Archive</a>
+        <a class='margin-em-half' href='contact'>Contact</a>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
